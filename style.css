@@ -1,0 +1,299 @@
+:root {
+  --white: #d4d0d0;
+  --red: #661816;
+  --black: #1a1616;
+  --yellow: #fea628;
+}
+
+body {
+  background: var(--white);
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Bookman Old Style", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 80vh;
+  background-image: url("./img/background-header.svg");
+  background-position: 70% 50%;
+}
+
+.logo {
+  width: 90%;
+}
+
+.msg-wht {
+  text-decoration: none;
+  color: var(--yellow);
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  display: block;
+  padding: 0.875rem;
+  background: var(--black);
+  border-radius: 8px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 60vh;
+}
+
+.white-section {
+  background: var(--white);
+}
+
+.red-section {
+  background: var(--red);
+}
+
+.content-text {
+  width: 95%;
+  height: 95%;
+
+  background-position: 30% 40%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  text-align: justify;
+  padding: 0.875rem;
+
+  border-radius: 8px;
+  color: var(--white);
+}
+
+.section-01 {
+  background-image: url("./img/section-01.svg");
+}
+
+.contrast {
+  width: 100%;
+  font-weight: 900;
+  color: var(--yellow);
+}
+
+.section-02 {
+  background-image: url("./img/section-02.svg");
+  color: var(--black);
+}
+
+.extende-text {
+  height: 80vh;
+}
+
+.low-text {
+  margin-bottom: 0.25rem;
+  height: 25vh;
+}
+
+.grid {
+  flex-direction: column;
+  height: 150vh;
+}
+
+.contrast-write {
+  width: 100%;
+  font-weight: 900;
+  color: var(--white);
+}
+
+.title-grid {
+  font-weight: 900;
+  color: var(--yellow);
+  margin-bottom: 0.875rem;
+}
+
+.low-text-2 {
+  margin-bottom: 0.25rem;
+  height: 42vh;
+}
+
+.low-text-3 {
+  margin-bottom: 0.25rem;
+  height: 18vh;
+}
+
+.low-text-4 {
+  margin-bottom: 0.25rem;
+  height: 19vh;
+}
+
+.krenak-img {
+  margin: 0.875rem 0;
+  width: 46vw;
+}
+
+.size-section {
+  height: 40vh;
+}
+
+.section-03 {
+  background-image: url("./img/section-03.svg");
+}
+
+.contrast-title {
+  color: var(--yellow);
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.section-04 {
+  background-image: url("./img/section-04.svg");
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.size-section-01 {
+  height: 65vh;
+}
+
+.size-section-02 {
+  height: 37vh;
+}
+
+.section-05 {
+  background-image: url("./img/section-05.svg");
+}
+
+.section-06 {
+  background-image: url("./img/section-06.svg");
+}
+
+.size-section-03 {
+  height: 70vh;
+}
+
+.section-07 {
+  background-image: url("./img/section-07.svg");
+}
+
+.size-section-04 {
+  height: 72vh;
+}
+
+.section-08 {
+  background-image: url("./img/section-08.svg");
+}
+
+.size-section-05 {
+  height: 58vh;
+}
+
+.section-09 {
+  background-image: url("./img/section-09.svg");
+  background-position: 65% 40%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 90vh;
+  width: 100vw;
+  background: var(--red);
+}
+
+.map {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 8px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: justify;
+
+  color: var(--yellow);
+  font-weight: 900;
+  gap: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 95%;
+  gap: 2rem;
+}
+
+.contacts {
+  color: var(--yellow);
+  gap: 10px;
+}
+
+.write-text-title {
+  display: block;
+  text-align: center;
+  width: 100%;
+  font-weight: 900;
+}
+
+.write-text {
+  color: var(--white);
+  font-weight: 900;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+
+  flex-direction: column;
+
+  margin-top: 0.5rem;
+  color: var(--yellow);
+  font-weight: 900;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-logo {
+  width: 30%;
+  background: var(--yellow);
+  padding: 8px;
+  border-radius: 90%;
+}
+
+.a-map {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
