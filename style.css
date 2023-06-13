@@ -7,7 +7,6 @@
 
 body {
   background: var(--white);
-  box-sizing: border-box;
 }
 
 * {
@@ -23,7 +22,7 @@ header {
   justify-content: center;
   flex-direction: column;
 
-  height: 80vh;
+  height: 50vh;
   background-image: url("./img/background-header.svg");
   background-position: 70% 50%;
 }
